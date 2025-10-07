@@ -1,0 +1,272 @@
+[
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloTriangle.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloTriangle.dir\\src\\Exercicios\\HelloTriangle\\HelloTriangle.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloTriangle\\HelloTriangle.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloTriangle/HelloTriangle.cpp",
+  "output": "CMakeFiles/HelloTriangle.dir/src/Exercicios/HelloTriangle/HelloTriangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloTriangle.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloTriangle.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloTriangle.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloOrtho.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloOrtho.dir\\src\\Exercicios\\HelloOrtho\\HelloOrtho.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloOrtho\\HelloOrtho.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloOrtho/HelloOrtho.cpp",
+  "output": "CMakeFiles/HelloOrtho.dir/src/Exercicios/HelloOrtho/HelloOrtho.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloOrtho.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloOrtho.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloOrtho.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloTransforms.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloTransforms.dir\\src\\Exercicios\\HelloTransforms\\HelloTransforms.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloTransforms\\HelloTransforms.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloTransforms/HelloTransforms.cpp",
+  "output": "CMakeFiles/HelloTransforms.dir/src/Exercicios/HelloTransforms/HelloTransforms.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloTransforms.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloTransforms.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloTransforms.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloTransformsHardCoded.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloTransformsHardCoded.dir\\src\\Exercicios\\HelloTransformsHardCoded\\HelloTransformsHardCoded.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloTransformsHardCoded\\HelloTransformsHardCoded.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloTransformsHardCoded/HelloTransformsHardCoded.cpp",
+  "output": "CMakeFiles/HelloTransformsHardCoded.dir/src/Exercicios/HelloTransformsHardCoded/HelloTransformsHardCoded.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloTransformsHardCoded.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloTransformsHardCoded.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloTransformsHardCoded.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Ex5.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\Ex5.dir\\src\\Exercicios\\Lista1\\Ex5\\Ex5.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\Lista1\\Ex5\\Ex5.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/Lista1/Ex5/Ex5.cpp",
+  "output": "CMakeFiles/Ex5.dir/src/Exercicios/Lista1/Ex5/Ex5.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/Ex5.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\Ex5.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/Ex5.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Ex8.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\Ex8.dir\\src\\Exercicios\\Lista1\\Ex8\\Ex8.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\Lista1\\Ex8\\Ex8.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/Lista1/Ex8/Ex8.cpp",
+  "output": "CMakeFiles/Ex8.dir/src/Exercicios/Lista1/Ex8/Ex8.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/Ex8.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\Ex8.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/Ex8.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloClasses.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloClasses.dir\\src\\Exercicios\\HelloClasses\\HelloClasses.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloClasses\\HelloClasses.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloClasses/HelloClasses.cpp",
+  "output": "CMakeFiles/HelloClasses.dir/src/Exercicios/HelloClasses/HelloClasses.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloClasses.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloClasses.dir\\src\\Exercicios\\HelloClasses\\TestClass.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloClasses\\TestClass.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloClasses/TestClass.cpp",
+  "output": "CMakeFiles/HelloClasses.dir/src/Exercicios/HelloClasses/TestClass.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloClasses.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloClasses.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloClasses.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloTexture.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloTexture.dir\\src\\Exercicios\\HelloTexture\\HelloTexture.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloTexture\\HelloTexture.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloTexture/HelloTexture.cpp",
+  "output": "CMakeFiles/HelloTexture.dir/src/Exercicios/HelloTexture/HelloTexture.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloTexture.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloTexture.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloTexture.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloSprites.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloSprites.dir\\src\\Exercicios\\HelloSprites\\HelloSprites.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloSprites\\HelloSprites.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloSprites/HelloSprites.cpp",
+  "output": "CMakeFiles/HelloSprites.dir/src/Exercicios/HelloSprites/HelloSprites.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/HelloSprites.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\HelloSprites.dir\\src\\Exercicios\\HelloSprites\\Sprite.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\HelloSprites\\Sprite.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/HelloSprites/Sprite.cpp",
+  "output": "CMakeFiles/HelloSprites.dir/src/Exercicios/HelloSprites/Sprite.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/HelloSprites.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\HelloSprites.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/HelloSprites.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\Game.dir\\src\\Exercicios\\Game\\HelloSprites.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\Game\\HelloSprites.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/Game/HelloSprites.cpp",
+  "output": "CMakeFiles/Game.dir/src/Exercicios/Game/HelloSprites.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Game.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\Game.dir\\src\\Exercicios\\Game\\Sprite.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\src\\Exercicios\\Game\\Sprite.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/src/Exercicios/Game/Sprite.cpp",
+  "output": "CMakeFiles/Game.dir/src/Exercicios/Game/Sprite.cpp.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/Game.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\Game.dir\\common\\glad.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\common\\glad.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/common/glad.c",
+  "output": "CMakeFiles/Game.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\context.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\init.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/init.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\input.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/input.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\monitor.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/monitor.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\platform.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/platform.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\vulkan.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/vulkan.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\window.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/window.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\egl_context.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/egl_context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\osmesa_context.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/osmesa_context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\null_init.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/null_init.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\null_monitor.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/null_monitor.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\null_window.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/null_window.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\null_joystick.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/null_joystick.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_module.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_module.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_time.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_time.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_thread.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_thread.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_init.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_init.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_joystick.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_joystick.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_monitor.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_monitor.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\win32_window.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/win32_window.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-build/src",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glfw-src\\src\\wgl_context.c",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glfw-src/src/wgl_context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glm-build/glm",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/glm.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\glm.dir\\detail\\glm.cpp.obj -c C:\\Users\\Administrador\\Desktop\\PG2025-2-main\\build\\_deps\\glm-src\\glm\\detail\\glm.cpp",
+  "file": "C:/Users/Administrador/Desktop/PG2025-2-main/build/_deps/glm-src/glm/detail/glm.cpp",
+  "output": "_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
+}
+]
