@@ -6,8 +6,6 @@ Repositório com os projetos desenvolvidos para a Atividade Acadêmica **Process
 
 📂 Estrutura do Repositório
 
-> Esta seção deve ser atualizada a cada projeto entregue, com suas respectivas tecnologias e descrições resumidas. Exemplo:
-
 | Projeto                 | Engine / Linguagem | Descrição breve                             |
 | ----------------------- | ------------------ | ------------------------------------------- |
 | `Ex5`                   | C++/OpenGL         | Desenvolvimento do exercicio 5 da Lista 1   |
