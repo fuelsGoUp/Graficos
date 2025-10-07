@@ -2,7 +2,7 @@
 
 Repositório com os projetos desenvolvidos para a Atividade Acadêmica **Processamento Gráfico: Fundamentos**, parte do curso de graduação em **Ciência da Computação da Unisinos**.
 
-👤 **Nome Completo:** [Seu Nome Aqui]
+👤 **Nome Completo:** [Vitor Hugo SIlva]
 
 📂 Estrutura do Repositório
 
