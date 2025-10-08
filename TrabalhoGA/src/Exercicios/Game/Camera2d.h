@@ -1,19 +1,8 @@
-// Camera2D.h
-#pragma once
-
+// editar classe h
 #include <GLM/glm.hpp>
 #include <GLM/gtc/matrix_transform.hpp>
 
-class Camera2D {
-public:
-    Camera2D();
-    ~Camera2D();
-
-    void setPosition(const glm::vec2& position);
-    void follow(const glm::vec2& targetPosition);
-    glm::mat4 getViewMatrix() const;
-
-private:
+// atributo
     glm::vec2 m_position;
 };
 
