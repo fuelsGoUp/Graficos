@@ -8,6 +8,31 @@ Sprite::~Sprite()
 {
 }
 
+vec3 Sprite::getPos()
+{
+	return pos;
+}
+
+vec3 Sprite::getDimensions()
+{
+	return dimensions;
+}
+
+void Sprite::setPos(float add)
+{
+	Sprite::pos.y = add;
+}
+
+void Sprite::setPos(vec3 newPos, float add)
+{
+	pos.y += add;
+}
+
+void Sprite::setDimensions(vec3 newDimensions)
+{
+	dimensions = newDimensions;
+}
+
 void Sprite::initialize(GLuint shaderID, GLuint texID, int nAnimations, int nFrames, vec3 pos, vec3 dimensions, float angle)
 {
     this->shaderID = shaderID;
@@ -23,7 +48,7 @@ void Sprite::initialize(GLuint shaderID, GLuint texID, int nAnimations, int nFra
 	this->d.t = 1.0 / (float) nAnimations;
 	this->FPS = 12.0;
 	this->lastTime = 0.0;
-	this->vel = 2;
+	this->vel = 6;
     this->VAO = setupGeometry();
 }
 
