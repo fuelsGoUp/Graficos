@@ -357,11 +357,7 @@ void key_callback(GLFWwindow *window, int key, int scancode, int action, int mod
 	}
 }
 
-// Esta função está bastante hardcoded - objetivo é compilar e "buildar" um programa de
-//  shader simples e único neste exemplo de código
-//  O código fonte do vertex e fragment shader está nos arrays vertexShaderSource e
-//  fragmentShader source no iniçio deste arquivo
-//  A função retorna o identificador do programa de shader
+
 int setupShader()
 {
 	// Vertex shader
