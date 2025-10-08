@@ -1,6 +1,6 @@
 /*
- * Original por: Rossana Baptista Queiroz
- * Adaptado por: Vitor Hugo Silva
+ * Criado por: Rossana Baptista Queiroz
+ * Adaptado por Vitor Hugo Silva
  */
 
 #include <iostream>
@@ -39,7 +39,7 @@ GLuint loadTexture(string filePath);
 void processInput(Sprite &spr);
 
 // Dimensões da janela (pode ser alterado em tempo de execução)
-const GLuint WIDTH = 800, HEIGHT = 600;
+const GLuint WIDTH = 1600, HEIGHT = 1000;
 
 // Código fonte do Vertex Shader (em GLSL): ainda hardcoded
 const GLchar *vertexShaderSource = R"glsl(
@@ -70,14 +70,14 @@ uniform vec2 offsetTex;
 	 color = texture(tex_buffer,tex_coord+offsetTex);
  }
  )glsl";
-
+// teclado
 bool keys[1024];
 
 
 // Função MAIN
 int main()
 {
-    // Shaders das plataformas
+    // shaders para desenhar os retângulos das plataformas
     const GLchar *rectVertexShaderSource = R"glsl(
         #version 400
         layout (location = 0) in vec2 position;
@@ -98,14 +98,21 @@ int main()
 
     
 
-    // Criação das plataformas
+    // Criação de plataformas
     std::vector<Platform> platforms;
-    platforms.push_back(Platform(vec2(200,100), vec2(200,100)));
-    platforms.push_back(Platform(vec2(500,200), vec2(150,30)));
-    platforms.push_back(Platform(vec2(350,350), vec2(100,100)));
-	platforms.push_back(Platform(vec2(350,350), vec2(300,100)));
+	
+	platforms.push_back(Platform(vec2(100,-100), vec2(200,300)));
+    platforms.push_back(Platform(vec2(500,-50), vec2(300,300)));
+    platforms.push_back(Platform(vec2(1200,-50), vec2(200,300)));
+	platforms.push_back(Platform(vec2(400,420), vec2(200,50)));
+	platforms.push_back(Platform(vec2(800,420), vec2(200,50)));
+	platforms.push_back(Platform(vec2(100,620), vec2(200,50)));
+	platforms.push_back(Platform(vec2(500,620), vec2(400,50)));
+	platforms.push_back(Platform(vec2(1100,620), vec2(200,50)));
+	platforms.push_back(Platform(vec2(400,820), vec2(200,50)));
+	platforms.push_back(Platform(vec2(800,820), vec2(200,50)));
 
-    // Gravidade e pulo
+    // variaveis de gravidade e pulo
     float gravity = 0.8f;
     float vy = 0.0f;
     bool onGround = false;
@@ -160,7 +167,10 @@ int main()
 	GLuint texID = loadTexture("../assets/sprites/planta_spr.png");
 	
     Sprite spr;
-    spr.initialize(shaderID,texID,4,6,vec3(400.0,300.0,0.0),vec3(64.0*3,64.0*3,1.0));
+	
+    spr.initialize(shaderID,texID,4,6,vec3(200.0,300.0,0.0),vec3(32.0*3,32.0*3,1.0));
+	
+	
 
 	//Habilitação do teste de profundidade
 	glEnable(GL_DEPTH_TEST);
@@ -176,7 +186,7 @@ int main()
 	double title_countdown_s = 0.1; // Intervalo para atualizar o título da janela com o FPS.
 
 	// Criação da matriz de projeção
-	mat4 projection = ortho(0.0, 800.0, 0.0, 600.0, -1.0, 1.0);
+	mat4 projection = ortho(0.0, 1600.0, 0.0, 1200.0, -1.0, 1.0);
 
 	// Utilizamos a variáveis do tipo uniform em GLSL para armazenar esse tipo de info
 	// que não está nos buffers
@@ -232,32 +242,32 @@ int main()
 		glViewport(0, 0, width, height);
 
 
-		// Mais configurações de gravidade e de pulo
+		// gravidade
 		vy -= gravity;
-		spr.pos.y += vy;
-		// Platform collision detection
+		spr.setPos(spr.getPos(), vy);
+		// colisão com plataformas
 		onGround = false;
 		for (const auto& plat : platforms) {
-			float charLeft = spr.pos.x - spr.dimensions.x / 2.0f;
-			float charRight = spr.pos.x + spr.dimensions.x / 2.0f;
-			float charBottom = spr.pos.y - spr.dimensions.y / 2.0f;
-			float prevBottom = spr.pos.y - spr.dimensions.y / 2.0f - vy;
+			float charLeft = spr.getPos().x - spr.getDimensions().x / 2.0f;
+			float charRight = spr.getPos().x + spr.getDimensions().x / 2.0f;
+			float charBottom = spr.getPos().y - spr.getDimensions().y / 2.0f;
+			float prevBottom = spr.getPos().y - spr.getDimensions().y / 2.0f - vy;
 			float platLeft = plat.pos.x;
 			float platRight = plat.pos.x + plat.size.x;
 			float platTop = plat.pos.y + plat.size.y;
-			// Se o personagem cair em uma plataforma ele deve se segurar nela
+			// se o personagem cair em uma plataforma ele ira ficar nela
 			if (charRight > platLeft && charLeft < platRight && prevBottom >= platTop && charBottom <= platTop && vy <= 0) {
-				spr.pos.y = platTop + spr.dimensions.y / 2.0f;
+				spr.setPos(platTop + spr.getDimensions().y / 2.0f);
 				vy = 0.0f;
 				onGround = true;
 				break;
 			}
 		}
-		// Input do pulo
+		// input do pulo
 		if (onGround && keys[GLFW_KEY_SPACE]) {
-			vy = 15.0f;
+			vy = 20.0f;
 		}
-
+	
 	GLuint rectVertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(rectVertexShader, 1, &rectVertexShaderSource, NULL);
     glCompileShader(rectVertexShader);
@@ -271,7 +281,7 @@ int main()
     glDeleteShader(rectVertexShader);
     glDeleteShader(rectFragmentShader);
 
-    // Retangulo VAO/VB (unidade na origem)
+    
     GLuint rectVAO, rectVBO;
     float rectVertices[] = {
         0.0f, 0.0f,
@@ -279,6 +289,7 @@ int main()
         1.0f, 1.0f,
         0.0f, 1.0f
     };
+	// abaixo serve para criar o VAO e VBO dos retângulos
     glGenVertexArrays(1, &rectVAO);
     glGenBuffers(1, &rectVBO);
     glBindVertexArray(rectVAO);
@@ -293,7 +304,7 @@ int main()
 		spr.update();
 		spr.draw();
 
-		// Desenha as plataformas
+		// Desenhar as plataformas
 		glUseProgram(rectShaderID);
 		glUniformMatrix4fv(glGetUniformLocation(rectShaderID, "projection"), 1, GL_FALSE, value_ptr(projection));
 		glUniform3f(glGetUniformLocation(rectShaderID, "rectColor"), 0.3f, 0.8f, 0.3f);
@@ -306,7 +317,7 @@ int main()
 			glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 		}
 		glBindVertexArray(0);
-		glUseProgram(shaderID); // Restaura o shader
+		glUseProgram(shaderID); // reseta o estudo para evitar problemas
 
 		glBindVertexArray(0); // Desnecessário aqui, pois não há múltiplos VAOs
 
@@ -337,7 +348,11 @@ void key_callback(GLFWwindow *window, int key, int scancode, int action, int mod
 	}
 }
 
-
+// Esta função está bastante hardcoded - objetivo é compilar e "buildar" um programa de
+//  shader simples e único neste exemplo de código
+//  O código fonte do vertex e fragment shader está nos arrays vertexShaderSource e
+//  fragmentShader source no iniçio deste arquivo
+//  A função retorna o identificador do programa de shader
 int setupShader()
 {
 	// Vertex shader
