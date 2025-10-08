@@ -97,7 +97,7 @@ bool keys[1024];
 // Função MAIN
 int main()
 {
-    // Platform rectangle shaders
+    // Shaders das plataformas
     const GLchar *rectVertexShaderSource = R"glsl(
         #version 400
         layout (location = 0) in vec2 position;
@@ -118,24 +118,21 @@ int main()
 
     
 
-    // Create platforms
+    // Criação das plataformas
     std::vector<Platform> platforms;
     platforms.push_back(Platform(vec2(200,100), vec2(200,100)));
     platforms.push_back(Platform(vec2(500,200), vec2(150,30)));
     platforms.push_back(Platform(vec2(350,350), vec2(100,100)));
 	platforms.push_back(Platform(vec2(350,350), vec2(300,100)));
 
-    // Gravity and jump variables
+    // Gravidade e pulo
     float gravity = 0.8f;
     float vy = 0.0f;
     bool onGround = false;
 	// Inicialização da GLFW
 	glfwInit();
 
-	// Muita atenção aqui: alguns ambientes não aceitam essas configurações
-	// Você deve adaptar para a versão do OpenGL suportada por sua placa
-	// Sugestão: comente essas linhas de código para desobrir a versão e
-	// depois atualize (por exemplo: 4.5 com 4 e 5)
+	
 	 //glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
 	 //glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 	 //glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
@@ -255,7 +252,7 @@ int main()
 		glViewport(0, 0, width, height);
 
 
-		// Gravity and jumping
+		// Mais configurações de gravidade e de pulo
 		vy -= gravity;
 		spr.pos.y += vy;
 		// Platform collision detection
@@ -268,7 +265,7 @@ int main()
 			float platLeft = plat.pos.x;
 			float platRight = plat.pos.x + plat.size.x;
 			float platTop = plat.pos.y + plat.size.y;
-			// Check if character is falling and crosses platform top
+			// Se o personagem cair em uma plataforma ele deve se segurar nela
 			if (charRight > platLeft && charLeft < platRight && prevBottom >= platTop && charBottom <= platTop && vy <= 0) {
 				spr.pos.y = platTop + spr.dimensions.y / 2.0f;
 				vy = 0.0f;
@@ -276,7 +273,7 @@ int main()
 				break;
 			}
 		}
-		// Jump input
+		// Input do pulo
 		if (onGround && keys[GLFW_KEY_SPACE]) {
 			vy = 15.0f;
 		}
@@ -294,7 +291,7 @@ int main()
     glDeleteShader(rectVertexShader);
     glDeleteShader(rectFragmentShader);
 
-    // Rectangle VAO/VBO (unit rectangle at origin)
+    // Retangulo VAO/VB (unidade na origem)
     GLuint rectVAO, rectVBO;
     float rectVertices[] = {
         0.0f, 0.0f,
@@ -316,7 +313,7 @@ int main()
 		spr.update();
 		spr.draw();
 
-		// Draw platforms using modern OpenGL
+		// Desenha as plataformas
 		glUseProgram(rectShaderID);
 		glUniformMatrix4fv(glGetUniformLocation(rectShaderID, "projection"), 1, GL_FALSE, value_ptr(projection));
 		glUniform3f(glGetUniformLocation(rectShaderID, "rectColor"), 0.3f, 0.8f, 0.3f);
@@ -329,7 +326,7 @@ int main()
 			glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 		}
 		glBindVertexArray(0);
-		glUseProgram(shaderID); // Restore sprite shader
+		glUseProgram(shaderID); // Restaura o shader
 
 		glBindVertexArray(0); // Desnecessário aqui, pois não há múltiplos VAOs
 
