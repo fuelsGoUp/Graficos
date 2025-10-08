@@ -37,7 +37,7 @@
 - [x] Configuração de shaders e pipeline programável  
 - [X] Implementação de transformações (model, view, projection)  
 - [X] Controle de movimentação do personagem/câmera  
-- [X] Renderização de múltiplos objetos  
+- [X] Renderização de múltiplos objetos 
 - [X] Detecção de colisão - De pulo
 
 ---
@@ -53,4 +53,4 @@ Caso o projeto utilize assets, texturas, bibliotecas externas ou seja inspirado 
 
 ## Comentários Finais
 
-O projeto é uma inicialização de um jogo 2d de plataforma, uma demonstração de uso de openGl
+O projeto é uma inicialização de um jogo 2d de plataforma, uma demonstração de uso de OpenGl.
