@@ -183,7 +183,7 @@ int main()
 		// Definindo as dimensões da viewport com as mesmas dimensões da janela da aplicação
 		int width, height;
 		glfwGetFramebufferSize(window, &width, &height);
-		glViewport(0, 300, 300, 300);
+		glViewport(0, 300, 300, 300); // pode ser mudado para (0,0) ou (0,300) ou (400,0)
 
 		glBindVertexArray(VAO); // Conectando ao buffer de geometria
 
