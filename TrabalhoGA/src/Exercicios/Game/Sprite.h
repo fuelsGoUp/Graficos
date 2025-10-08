@@ -30,8 +30,13 @@ class Sprite
         void draw();
         void moveRight();
         void moveLeft();
-
-    public:
+        vec3 getPos();
+        vec3 getDimensions();
+        void setPos(float);
+        void setPos(vec3, float);
+        void setDimensions(vec3);
+       
+    private:
         GLuint VAO; //id do VAO da geometria
         GLuint texID; //id da textura
         vec3 pos; //posicao
