@@ -2,7 +2,7 @@
 #include <GLM/glm.hpp>
 #include <GLM/gtc/matrix_transform.hpp>
 
-// atributo
+
     glm::vec2 m_position;
 };
 
