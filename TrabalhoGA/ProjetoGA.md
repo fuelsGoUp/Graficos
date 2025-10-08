@@ -47,7 +47,6 @@
 Caso o projeto utilize assets, texturas, bibliotecas externas ou seja inspirado em tutoriais, cite as fontes aqui.  
 
 - Tutorial seguido — [https://www.youtube.com/watch?v=_-s5apOO_7I]  Inspirado
-- Assets do craftPix
 
 ---
 
