@@ -30,6 +30,9 @@ using namespace glm;
 #include "Sprite.h"
 #include "Platform.h"
 
+#include <chrono>
+#include <thread>
+
 // Protótipo da função de callback de teclado
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode);
 
@@ -204,6 +207,21 @@ int main()
 	// Loop da aplicação - "game loop"
 	while (!glfwWindowShouldClose(window))
 	{
+		// No loop principal do seu aplicativo:
+	auto start_time = std::chrono::high_resolution_clock::now();
+
+	// ... código de renderização OpenGL ...
+
+	// limata o fps em 64, para manter a fisica funcionando.
+	auto end_time = std::chrono::high_resolution_clock::now();
+	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
+
+	int fps_desejado = 120; // Exemplo de FPS desejado
+	auto tempo_espera_ms = std::chrono::milliseconds(static_cast<long long>(1000.0 / fps_desejado - duration.count()));
+
+	if (tempo_espera_ms > std::chrono::milliseconds(0)) {
+    	std::this_thread::sleep_for(tempo_espera_ms);
+	}
 		// Este trecho de código é totalmente opcional: calcula e mostra a contagem do FPS na barra de título
 		{
 			double curr_s = glfwGetTime();		// Obtém o tempo atual.
