@@ -85,13 +85,14 @@ def draw_texture(frame):
 #  Carrega imagens da pasta
 # ======================================================
 
-def carregar_imagens(pasta="imagens"):
-    arquivos = []
-    if os.path.exists(pasta):
-        for f in os.listdir(pasta):
-            if f.lower().endswith((".png", ".jpg", ".jpeg")):
-                arquivos.append(os.path.join(pasta, f))
-    return arquivos
+def carregar_imagens(pastas):
+    imagens = []
+    for pasta in pastas:
+        if os.path.exists(pasta):
+            for arquivo in os.listdir(pasta):
+                if arquivo.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff')):
+                    imagens.append(os.path.join(pasta, arquivo))
+    return imagens
 
 # ======================================================
 #  Menu interativo PowerShell
@@ -185,7 +186,8 @@ if __name__ == "__main__":
             executar(0)
 
         elif esc == "2":
-            imgs = carregar_imagens("imagens")
+            pastas_do_projeto = ["imagens", "Graficos/TrabalhoGB/outras_imagens", "Caminho/Absoluto/etc"]
+            imgs = carregar_imagens(pastas_do_projeto)
             if not imgs:
                 print("Nenhuma imagem na pasta /imagens")
             else:
