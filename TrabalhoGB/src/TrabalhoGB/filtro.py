@@ -85,7 +85,7 @@ def draw_texture(frame):
 #  Carrega imagens da pasta
 # ======================================================
 
-def carregar_imagens(pasta="imagens" and "images" and "fotos" and "documentos" and "pictures"):
+def carregar_imagens(pasta="imagens"):
     arquivos = []
     if os.path.exists(pasta):
         for f in os.listdir(pasta):
@@ -114,10 +114,10 @@ def executar(video_source):
     if not glfw.init():
         print("Erro ao inicializar janela GLFW")
         return
-
+    
     janela = glfw.create_window(800, 600, "Filtros Instagram - OpenCV + OpenGL", None, None)
     glfw.make_context_current(janela)
-
+    glfw.focus_window(janela)
     filtro_id = 0
     total_filtros = len(filtros)
 
@@ -185,7 +185,7 @@ if __name__ == "__main__":
             executar(0)
 
         elif esc == "2":
-            imgs = carregar_imagens("imagens" and "images" and "fotos" and "documentos" and "pictures")
+            imgs = carregar_imagens("imagens")
             if not imgs:
                 print("Nenhuma imagem na pasta /imagens")
             else:
